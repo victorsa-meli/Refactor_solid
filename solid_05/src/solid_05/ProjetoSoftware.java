@@ -10,6 +10,9 @@ public class ProjetoSoftware {
         this.devs = devs;
     }
 
+    public ProjetoSoftware(FrontEndDev frontDev, BackEndDev backDev) {
+    }
+
     public void criarProjeto(){
         this.devs.forEach(iDev::dev);
     }
