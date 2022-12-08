@@ -1,4 +1,4 @@
-package solid_exercicio1;
+package solid_02;
 
 public class Fatura {
 
@@ -64,6 +64,11 @@ public class Fatura {
         return precoComImposto;
     }
 
-
+    public void imprimirFatura() {
+        System.out.println(quantidade + "x " + livro.nome + " " + livro.preco + "$");
+        System.out.println("Porcentagem de desconto: " + porcDesconto);
+        System.out.println("Procentagem de imposto: " + porcImposto);
+        System.out.println("Total: " + total);
+    }
 
 }
